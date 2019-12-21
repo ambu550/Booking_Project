@@ -1,0 +1,342 @@
+{
+  "id": "792d6ebb-4711-43ce-978b-1d52c29a788f",
+  "version": "2.0",
+  "name": "Booking",
+  "url": "https://ecom-staging-yanair.worldticket.net",
+  "tests": [{
+    "id": "8d97db32-0967-4cf1-90ba-f7ffd28cdc76",
+    "name": "pass",
+    "commands": [{
+      "id": "48e22062-9b0b-4404-904a-a9d6f295b2c5",
+      "comment": "",
+      "command": "open",
+      "target": "/booking",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2af6823-9bc3-4bc5-93f8-11d0bfa2c9b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e4b73d-c29a-43d8-92bf-cf3cec6d89bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#destinationselect li:nth-child(2)",
+      "targets": [
+        ["css=#destinationselect li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='destinationselect']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Batumi (BUS)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b053aa-dc96-41be-9068-6effa216fec5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=26",
+      "targets": [
+        ["linkText=26", "linkText"],
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//a[contains(text(),'26')]", "xpath:link"],
+        ["xpath=//div[@id='dp1576936894379']/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "834683a6-7f77-45fe-a5e5-6b738e5d8ddb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=26",
+      "targets": [
+        ["linkText=26", "linkText"],
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//a[contains(text(),'26')]", "xpath:link"],
+        ["xpath=//div[@id='dp1576936894379']/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'26')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "554e94ba-f1cc-41b3-a5c0-0c55750f9164",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchtrip > span",
+      "targets": [
+        ["css=#searchtrip > span", "css:finder"],
+        ["xpath=//button[@id='searchtrip']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'FLIGHT SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b20674-fe21-46a6-b8c7-8f8112f997a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=continue",
+      "targets": [
+        ["id=continue", "id"],
+        ["css=#form-flights-buttons > #continue", "css:finder"],
+        ["xpath=//a[@id='continue']", "xpath:attributes"],
+        ["xpath=//form[@id='form-flights-buttons']/a", "xpath:idRelative"],
+        ["xpath=//form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ccc273-0e86-49a1-bd4f-44d6b1df131b",
+      "comment": "",
+      "command": "click",
+      "target": "id=passenger_title_0",
+      "targets": [
+        ["id=passenger_title_0", "id"],
+        ["name=passenger_title[0]", "name"],
+        ["css=#passenger_title_0", "css:finder"],
+        ["xpath=//select[@id='passenger_title_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b3d58e-e00f-406c-873d-5a31784945e7",
+      "comment": "",
+      "command": "select",
+      "target": "id=passenger_title_0",
+      "targets": [],
+      "value": "label=Mr."
+    }, {
+      "id": "48d40dfd-7594-4737-96a8-dfb186eae3b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=passenger_title_0",
+      "targets": [
+        ["id=passenger_title_0", "id"],
+        ["name=passenger_title[0]", "name"],
+        ["css=#passenger_title_0", "css:finder"],
+        ["xpath=//select[@id='passenger_title_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35951c2f-9a84-4dfc-9570-21df61dcd7c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=passenger_firstname_0",
+      "targets": [
+        ["id=passenger_firstname_0", "id"],
+        ["name=passenger_firstname[0]", "name"],
+        ["css=#passenger_firstname_0", "css:finder"],
+        ["xpath=//input[@id='passenger_firstname_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d2635b-7b88-4a44-8965-09ed7b0399cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=passenger_firstname_0",
+      "targets": [
+        ["id=passenger_firstname_0", "id"],
+        ["name=passenger_firstname[0]", "name"],
+        ["css=#passenger_firstname_0", "css:finder"],
+        ["xpath=//input[@id='passenger_firstname_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ass"
+    }, {
+      "id": "7431ad08-96ae-4031-86cd-91293b833432",
+      "comment": "",
+      "command": "click",
+      "target": "id=passenger_lastname_0",
+      "targets": [
+        ["id=passenger_lastname_0", "id"],
+        ["name=passenger_lastname[0]", "name"],
+        ["css=#passenger_lastname_0", "css:finder"],
+        ["xpath=//input[@id='passenger_lastname_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a172d207-1c88-4c92-bc1f-be9e6e013bc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=passenger_lastname_0",
+      "targets": [
+        ["id=passenger_lastname_0", "id"],
+        ["name=passenger_lastname[0]", "name"],
+        ["css=#passenger_lastname_0", "css:finder"],
+        ["xpath=//input[@id='passenger_lastname_0']", "xpath:attributes"],
+        ["xpath=//div[@id='passenger_0']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Ass"
+    }, {
+      "id": "41fadf09-bbbb-4459-8b7e-8af294ba9563",
+      "comment": "",
+      "command": "click",
+      "target": "name=docs_type[0]",
+      "targets": [
+        ["name=docs_type[0]", "name"],
+        ["css=.docs_type", "css:finder"],
+        ["xpath=//select[@name='docs_type[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Passport')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ac30fd-710e-4a75-a1d1-9337d657cfd0",
+      "comment": "",
+      "command": "select",
+      "target": "name=docs_type[0]",
+      "targets": [],
+      "value": "label=Passport"
+    }, {
+      "id": "1e2e47dd-7056-4930-8340-057a34286bf1",
+      "comment": "",
+      "command": "click",
+      "target": "name=docs_type[0]",
+      "targets": [
+        ["name=docs_type[0]", "name"],
+        ["css=.docs_type", "css:finder"],
+        ["xpath=//select[@name='docs_type[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Passport')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7197f9d-7721-4158-a273-fb18b24a1b13",
+      "comment": "",
+      "command": "click",
+      "target": "name=docs_number[0]",
+      "targets": [
+        ["name=docs_number[0]", "name"],
+        ["css=#docs-block\\[0\\] .input-box > .input-text", "css:finder"],
+        ["xpath=//input[@name='docs_number[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d467ec-a083-4f97-afa2-04a4d3d3425f",
+      "comment": "",
+      "command": "type",
+      "target": "name=docs_number[0]",
+      "targets": [
+        ["name=docs_number[0]", "name"],
+        ["css=#docs-block\\[0\\] .input-box > .input-text", "css:finder"],
+        ["xpath=//input[@name='docs_number[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "fr223344"
+    }, {
+      "id": "01610adc-2a12-42d2-865e-208bf7cd8468",
+      "comment": "",
+      "command": "click",
+      "target": "id=docs_document_expirydate_0",
+      "targets": [
+        ["id=docs_document_expirydate_0", "id"],
+        ["name=docs_document_expirydate[0]", "name"],
+        ["css=#docs_document_expirydate_0", "css:finder"],
+        ["xpath=//input[@id='docs_document_expirydate_0']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc815c7f-1933-42a9-9c9b-184020d91d60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-panel li:nth-child(12)",
+      "targets": [
+        ["css=.datepicker-panel li:nth-child(12)", "css:finder"],
+        ["xpath=//ul[2]/li[12]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c745a30-59b5-4eb4-a018-13b7fc60ece3",
+      "comment": "",
+      "command": "click",
+      "target": "id=docs_birthdate0",
+      "targets": [
+        ["id=docs_birthdate0", "id"],
+        ["name=docs_birthdate[0]", "name"],
+        ["css=#docs_birthdate0", "css:finder"],
+        ["xpath=//input[@id='docs_birthdate0']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-block[0]']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f064ffae-64d3-4f6c-8413-362b3d216ad2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)",
+      "targets": [
+        ["css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[9]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8095a23-eb6d-442f-81f5-508c8245a8ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)",
+      "targets": [
+        ["css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[9]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8842a49b-b5a0-48b3-8777-8672f77387e1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)",
+      "targets": [
+        ["css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[9]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f770868-d30e-4794-8401-0375191a37b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)",
+      "targets": [
+        ["css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(1) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[9]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc5a1b5-8b3b-4fd6-9b6e-b0fc2dc9f986",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(2) > li:nth-child(1)",
+      "targets": [
+        ["css=.datepicker-container:nth-child(15) > .datepicker-panel:nth-child(1) > ul:nth-child(2) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[9]/div/ul[2]/li", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3808a981-b562-40ff-978b-af19008d706d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d97db32-0967-4cf1-90ba-f7ffd28cdc76"]
+  }],
+  "urls": ["https://ecom-staging-yanair.worldticket.net/"],
+  "plugins": []
+}
