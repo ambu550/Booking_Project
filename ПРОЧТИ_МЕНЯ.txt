@@ -1,4 +1,5 @@
 доступ:
+https://drive.google.com/drive/folders/1yIbFAiM7S97cStJrZh17WB9c_zL92Usb?usp=sharing
 https://drive.google.com/drive/folders/1yIbFAiM7S97cStJrZh17WB9c_zL92Usb
 
 Отсортировано по папкам-№ папки  это номер митинга
@@ -20,7 +21,7 @@ Reg_P_1_min       цвет зелёный
 
 Reg - Registration(модуль)
 P - positive
-1 - елемент №1(поле/чекбокс)(заранее пронутеровані в Тest data)
+1 - елемент №1(поле/чекбокс)(заранее пронутерованы в Тest data)
 min - вид проверки (V-valid, min-минимальное валидное значение, max-максимальное валидное значение а также другие если валидные (смотри ниже))
 
 
@@ -28,7 +29,7 @@ Reg_N_7_Ssc      цвет красный
 
 Reg - Registration(модуль)
 N - negative
-7 - елемент №1(поле/чекбокс)(заранее пронутеровані в Тest data)
+7 - елемент №1(поле/чекбокс)(заранее пронутерованы в Тest data)
 SSc - вид проверки (Em- пустой
 					Sp - пробел
 					SS - спец символ 
